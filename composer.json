@@ -1,0 +1,18 @@
+{
+    "name": "flex301/yii2-cropperjs-upload-widget",
+    "version": "0.1.0",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "npm-asset/cropperjs": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flex301\\Cropperjs\\": "src"
+        }
+    }
+}
